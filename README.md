@@ -166,17 +166,4 @@ Audio previews in this repository are provided solely to illustrate the severity
 - Research use only. Commercial use is not permitted.
 - Do not attempt to re-identify any participant.
 - Do not redistribute the audio to third parties; direct them here instead.
-- Any publication using this corpus must cite the paper below.
-
----
-
-## Citation
-
-```bibtex
-@inproceedings{chang2027sedid,
-  title     = {Learning from Clinician Severity Disagreement for Speech-Based Dysarthria Detection},
-  author    = {Chang, Yuance and Ding, Han and Zhao, Cui and Wang, Fei and Wang, Ge and Wang, Zhi and Xi, Wei},
-  booktitle = {Proceedings of IEEE ICASSP},
-  year      = {2027}
-}
-```
+- Any publication using this corpus must cite the accompanying paper; full citation details will be posted here once it is published.
