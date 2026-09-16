@@ -4,7 +4,7 @@
 
 > Release page. Full audio is not hosted in this repository — see [Access](#access).
 >
-> Rendered version with inline audio players: **https://ChangYuance.github.io/CSD-615/**
+> Rendered version with inline audio players: **https://aiot-ssmc.github.io/CSD-615/**
 
 ---
 
