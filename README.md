@@ -93,6 +93,30 @@ Clinicians agree almost perfectly on clear cases and diverge sharply on borderli
 
 This is the property that motivates releasing the individual ratings rather than a single consensus label.
 
+### Samples by contributing site
+
+The corpus was collected at ten tertiary hospitals. Sites are referred to by code
+(`Hospital A`–`Hospital J`), ordered by number of samples; the names are withheld.
+
+| Site | Samples | Share | Normal / Mild / Moderate / Severe | Sex (F / M) | Age (mean ± SD) |
+|---|---|---|---|---|---|
+| Hospital A | 186 | 30.2 % | 152 / 12 / 11 / 11 | 64 / 122 | 63.2 ± 11.5 |
+| Hospital B | 111 | 18.0 % | 79 / 4 / 8 / 20 | 35 / 76 | 61.1 ± 11.9 |
+| Hospital C | 89 | 14.5 % | 77 / 7 / 4 / 1 | 19 / 70 | 62.8 ± 10.6 |
+| Hospital D | 69 | 11.2 % | 33 / 4 / 8 / 24 | 24 / 45 | 65.9 ± 11.1 |
+| Hospital E | 55 | 8.9 % | 38 / 5 / 5 / 7 | 16 / 39 | 61.9 ± 12.0 |
+| Hospital F | 52 | 8.5 % | 41 / 8 / 2 / 1 | 16 / 36 | 62.7 ± 10.2 |
+| Hospital G | 16 | 2.6 % | 12 / 1 / 1 / 2 | 3 / 13 | 58.4 ± 9.1 |
+| Hospital H | 16 | 2.6 % | 10 / 1 / 1 / 4 | 6 / 10 | 65.6 ± 11.0 |
+| Hospital I | 12 | 2.0 % | 8 / 0 / 0 / 4 | 4 / 8 | 63.8 ± 10.8 |
+| Hospital J | 9 | 1.5 % | 8 / 1 / 0 / 0 | 2 / 7 | 57.0 ± 4.9 |
+| **All** | **615** | **100 %** | **458 / 43 / 40 / 74** | **189 / 426** | **62.8 ± 11.3** |
+
+Severity mix varies substantially across sites — from 1 % severe at Hospital C to 35 %
+at Hospital D — so site is a meaningful source of heterogeneity in this corpus. Note that
+several sites contribute few samples (Hospital I: 12, Hospital J: 9), so per-site severity
+proportions for those sites are unstable and should not be over-interpreted.
+
 ---
 
 ## Recording conditions
@@ -112,7 +136,10 @@ Participants were recorded through a dedicated mobile application under a fixed 
 
 ## Access
 
-This repository hosts only the eight preview clips above.
+This repository hosts only the eight preview clips above, plus
+[`manifest_anonymized.csv`](manifest_anonymized.csv) — the per-sample severity ratings
+(`sample_id, site, split, rater_a, rater_b, rater_c, median`) for all 615 samples, with both
+sample and site identifiers replaced by codes.
 
 The full 615-sample corpus, including the three individual clinician ratings per sample, is available for **non-commercial research use** upon request.
 
@@ -153,27 +180,3 @@ Audio previews in this repository are provided solely to illustrate the severity
   year      = {2027}
 }
 ```
-
-### Samples by contributing site
-
-The corpus was collected at ten tertiary hospitals. Sites are referred to by code
-(`Hospital A`–`Hospital J`), ordered by number of samples; the names are withheld.
-
-| Site | Samples | Share | Normal / Mild / Moderate / Severe | Sex (F / M) | Age (mean ± SD) |
-|---|---|---|---|---|---|
-| Hospital A | 186 | 30.2 % | 152 / 12 / 11 / 11 | 64 / 122 | 63.2 ± 11.5 |
-| Hospital B | 111 | 18.0 % | 79 / 4 / 8 / 20 | 35 / 76 | 61.1 ± 11.9 |
-| Hospital C | 89 | 14.5 % | 77 / 7 / 4 / 1 | 19 / 70 | 62.8 ± 10.6 |
-| Hospital D | 69 | 11.2 % | 33 / 4 / 8 / 24 | 24 / 45 | 65.9 ± 11.1 |
-| Hospital E | 55 | 8.9 % | 38 / 5 / 5 / 7 | 16 / 39 | 61.9 ± 12.0 |
-| Hospital F | 52 | 8.5 % | 41 / 8 / 2 / 1 | 16 / 36 | 62.7 ± 10.2 |
-| Hospital G | 16 | 2.6 % | 12 / 1 / 1 / 2 | 3 / 13 | 58.4 ± 9.1 |
-| Hospital H | 16 | 2.6 % | 10 / 1 / 1 / 4 | 6 / 10 | 65.6 ± 11.0 |
-| Hospital I | 12 | 2.0 % | 8 / 0 / 0 / 4 | 4 / 8 | 63.8 ± 10.8 |
-| Hospital J | 9 | 1.5 % | 8 / 1 / 0 / 0 | 2 / 7 | 57.0 ± 4.9 |
-| **All** | **615** | **100 %** | **458 / 43 / 40 / 74** | **189 / 426** | **62.8 ± 11.3** |
-
-Severity mix varies substantially across sites — from 1 % severe at Hospital C to 35 %
-at Hospital D — so site is a meaningful source of heterogeneity in this corpus. Note that
-several sites contribute few samples (Hospital I: 12, Hospital J: 9), so per-site severity
-proportions for those sites are unstable and should not be over-interpreted.

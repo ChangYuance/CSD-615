@@ -1,4 +1,4 @@
-﻿样本代号,医院代号,split,医生A,医生B,医生C,中位数
+sample_id,site,split,rater_a,rater_b,rater_c,median
 S001,Hospital B,train,3,3,3,3
 S002,Hospital A,train,3,3,3,3
 S003,Hospital B,train,3,3,3,3
